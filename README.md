@@ -6,7 +6,9 @@ A simple script to update tailscale on my GliNet Beryl AX travel router
 
 - SSH into the router - This can be done by running `ssh root@ip_of_router`. The default for mine was `192.168.8.1`.
 
-- Create the file - Using a text editor create it and paste the contents.
+Once connected over SSH:
+
+- Create the file - Run `curl -O https://raw.githubusercontent.com/CattoSalad/tailscale-updater-glinet/main/update_tailscale.sh` download the script.
 
 - Make it executable - Run `chmod +x update_tailscale.sh`
 
